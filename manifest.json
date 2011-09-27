@@ -1,0 +1,21 @@
+{
+  "name": "jquery-injector",
+  "version": "0.1",
+  "description": "Injects jquery 1.6.4 to current page.",
+  "background_page": "background.html",
+  "browser_action": {
+    "default_icon": "jquery_icon.png",
+    "default_title": "just click to inject jquery 1.6.4"
+  },  
+  "icons": {
+    "16": "jquery.png",
+    "48": "jquery.png",
+    "128": "jquery.png",
+    "256": "jquery.png"
+  },
+  "permissions": [
+    "tabs", 
+    "https://*/*",
+    "http://*/*"
+  ]
+}
