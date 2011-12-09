@@ -1,6 +1,6 @@
 {
   "name": "jquery-injector",
-  "version": "0.2",
+  "version": "0.2.1",
   "description": "Injects jquery 1.7 to current page.",
   "background_page": "background.html",
   "browser_action": {
