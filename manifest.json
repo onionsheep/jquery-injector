@@ -1,12 +1,12 @@
 {
   "name": "jquery-injector",
-  "version": "0.2.1",
-  "description": "Injects jquery 1.7 to current page.",
+  "version": "0.2.2",
+  "description": "Injects jquery 1.8 to current page.",
   "background_page": "background.html",
   "browser_action": {
     "default_icon": "jquery_icon.png",
-    "default_title": "just click to inject jquery 1.7"
-  },  
+    "default_title": "just click to inject jquery 1.8"
+  },
   "icons": {
     "16": "jquery.png",
     "48": "jquery.png",
@@ -14,7 +14,7 @@
     "256": "jquery.png"
   },
   "permissions": [
-    "tabs", 
+    "tabs",
     "https://*/*",
     "http://*/*"
   ]
