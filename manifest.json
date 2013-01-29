@@ -1,6 +1,6 @@
 {
   "name": "jquery-injector",
-  "version": "0.3",
+  "version": "0.4.3",
   "manifest_version": 2,
   "description": "Injects jquery to current page.",
   "background": {
@@ -9,14 +9,14 @@
   },
   "browser_action": {
     "default_icon": "jquery_icon.png",
-    "default_title": "just click to inject"
+    "default_title": "click for jquery-injection"
   },
   "options_page": "options.html",
   "icons": {
-    "16": "jquery.png",
-    "48": "jquery.png",
-    "128": "jquery.png",
-    "256": "jquery.png"
+    "16": "jquery_16.png",
+    "48": "jquery_48.png",
+    "64": "jquery_64.png",
+    "128": "jquery_128.png"
   },
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
   "permissions": [

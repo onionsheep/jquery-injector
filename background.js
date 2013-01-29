@@ -1,10 +1,14 @@
 var buttonClicked = function() {
-  var version = localStorage["jquery_version"] || "1.9";
+  var version = localStorage["jquery_version"] || "1.9.0";
+  if(version == '1.9') {
+    version = '1.9.0';
+  }
   var script = [];
+  var scriptSource = 'https://ajax.googleapis.com/ajax/libs/jquery/' + version + '/jquery.min.js';
   script.push('var head = document.getElementsByTagName("head")[0];');
   script.push('var script = document.createElement("script");');
   script.push('script.type = "text/javascript";');
-  script.push('script.src = "https://ajax.googleapis.com/ajax/libs/jquery/' + version + '/jquery.min.js";');
+  script.push('script.src = "' + scriptSource + '";');
   script.push('head.appendChild(script);');
   chrome.tabs.executeScript(null, { code: script.join('') });
   chrome.browserAction.setBadgeBackgroundColor({color:[0, 200, 0, 100]});
