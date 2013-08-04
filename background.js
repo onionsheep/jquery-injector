@@ -1,5 +1,5 @@
 var buttonClicked = function() {
-  var version = localStorage["jquery_version"] || "2.0.0";
+  var version = localStorage["jquery_version"] || "2.0.3";
   var script = [];
   var scriptSource = 'https://ajax.googleapis.com/ajax/libs/jquery/' + version + '/jquery.min.js';
   script.push('var head = document.getElementsByTagName("head")[0];');
